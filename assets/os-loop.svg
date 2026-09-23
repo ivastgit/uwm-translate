@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220">
+<rect width="520" height="220" rx="2" fill="#111"/>
+<g font-family="Arial" fill="#fff">
+<text x="34" y="40" font-size="12" font-weight="700">RESEARCH TRANSLATION OS</text>
+<text x="34" y="70" font-size="24" font-weight="700">Notice → Test → Capture → Adopt</text>
+</g>
+<g transform="translate(34,105)">
+ <rect x="0" y="0" width="96" height="58" fill="#ffbd00"/><rect x="112" y="0" width="96" height="58" fill="#ffbd00"/>
+ <rect x="224" y="0" width="96" height="58" fill="#ffbd00"/><rect x="336" y="0" width="96" height="58" fill="#ffbd00"/>
+ <g fill="#111" font-family="Arial" font-size="11" font-weight="700" text-anchor="middle">
+ <text x="48" y="34">PROBLEM</text><text x="160" y="34">EXPERIMENT</text><text x="272" y="34">ARTIFACT</text><text x="384" y="34">OWNER</text>
+ </g>
+</g>
+<text x="34" y="196" font-family="Arial" font-size="11" fill="#bbb">Make institutional learning visible and reusable.</text>
+</svg>

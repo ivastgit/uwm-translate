@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120">
+<rect width="900" height="120" fill="white"/>
+<g font-family="Arial" fill="#111" text-anchor="middle">
+ <g><circle cx="80" cy="48" r="25" fill="#ffbd00"/><text x="80" y="53" font-size="18">⌕</text><text x="80" y="96" font-size="12" font-weight="700">DISCOVER</text></g>
+ <g><circle cx="265" cy="48" r="25" fill="#ffbd00"/><text x="265" y="54" font-size="18">⚗</text><text x="265" y="96" font-size="12" font-weight="700">DEVELOP</text></g>
+ <g><circle cx="450" cy="48" r="25" fill="#ffbd00"/><text x="450" y="54" font-size="18">↔</text><text x="450" y="96" font-size="12" font-weight="700">CONNECT</text></g>
+ <g><circle cx="635" cy="48" r="25" fill="#ffbd00"/><text x="635" y="54" font-size="18">➤</text><text x="635" y="96" font-size="12" font-weight="700">TRANSLATE</text></g>
+ <g><circle cx="820" cy="48" r="25" fill="#ffbd00"/><text x="820" y="54" font-size="18">★</text><text x="820" y="96" font-size="12" font-weight="700">CHANGE</text></g>
+</g>
+<g stroke="#111" stroke-width="2"><path d="M110 48H235"/><path d="M295 48H420"/><path d="M480 48H605"/><path d="M665 48H790"/></g>
+</svg>
