@@ -1,17 +1,17 @@
-# UWM TRANSLATE — unified GitHub Pages prototype
+# UWM TRANSLATE unified prototype — original-theme edition
 
-This package combines:
-- a static UWM TRANSLATE landing page at `/`
-- a living Research Translation Operating System portal at `/os/`
+This version deliberately reuses the visual language of the original UWM TRANSLATE prototype:
+large RESEARCH TO IMPACT hero, pastel icon bubbles, rounded cards, Discover→Develop→Connect→Translate→Change pathway, and the original published research-to-impact SVG.
 
-## Deploy
-Upload the *contents* of this folder to the root of a GitHub repository.
-In GitHub: Settings → Pages → Deploy from a branch → `main` → `/(root)`.
+## Structure
+- `/index.html` — static UWM TRANSLATE landing page
+- `/os/` — living Research Translation Operating System portal
+- `/assets/styles.css` — shared theme
 
-The home page will be:
-`https://USERNAME.github.io/REPOSITORY/`
+## Important note about the hero graphic
+The hero references the original graphic already published in your existing repository:
+`https://ivastgit.github.io/uwm-translate-prototype/assets/graphic.svg`
+This ensures the exact original illustration is used. If you later copy `graphic.svg` into this package's `/assets/` folder, change the image source in `index.html` to `assets/graphic.svg` and the site will be fully self-contained.
 
-The OS portal will be:
-`https://USERNAME.github.io/REPOSITORY/os/`
-
-No build tools or external libraries are required.
+## GitHub Pages
+Upload the contents of this folder to the repository root. Enable Settings → Pages → Deploy from branch → main → /(root).
