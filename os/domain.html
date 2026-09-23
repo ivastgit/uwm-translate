@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Domain | UWM TRANSLATE</title><link rel="stylesheet" href="../css/styles.css"></head><body>
+<header><div class="wrap"><nav>
+<a class="brand" href="../index.html">UWM TRANSLATE <span>/ Research Translation</span></a>
+<div class="navlinks"><a href="../index.html#about">About</a><a href="../index.html#programs">Programs</a><a href="../os/index.html">Operating System</a></div>
+</nav></div></header>
+<main><div class="wrap"><div class="breadcrumb"><a href="index.html">Operating System</a> / <span id="crumb">Domain</span></div></div>
+<section class="hero"><div class="wrap"><div class="eyebrow">Translation domain</div><h1 id="title">Domain</h1><p class="lead" id="desc"></p></div></section>
+<section class="section light"><div class="wrap"><div class="grid2">
+<div class="card"><h3>Current practice</h3><p>How does this work at UWM today? What pathways, roles, or rules shape the experience?</p></div>
+<div class="card"><h3>Changes being tested</h3><p>What is TRANSLATE or a campus partner changing, piloting, or improving?</p></div>
+<div class="card"><h3>Evidence</h3><p>What are we learning from implementation, users, outcomes, and adoption?</p></div>
+<div class="card"><h3>Reusable components</h3><p>What policy, process, tool, curriculum, template, or practice can others use?</p></div>
+</div></div></section>
+<section class="section"><div class="wrap"><h2>Artifacts in this domain</h2><div class="artifact"><span class="status">Example</span><h3>Artifact title</h3><p class="small">Problem → change tested → evidence → owner → last updated.</p></div><p><a class="button" href="library.html">Browse all tools & practices</a></p></div></section></main><footer><div class="wrap footerline"><div><strong>UWM TRANSLATE</strong><br>Building research translation capacity at UWM.</div><div>Supported by the NSF Accelerating Research Translation program.</div></div></footer>
+<script>
+const d=new URLSearchParams(location.search).get('d')||'faculty';
+const data={
+faculty:['Faculty incentives','Recognition, workload, advancement, and participation in research translation.'],
+industry:['Industry engagement','Connections, discovery, partnerships, and sponsored research.'],
+funding:['Translation funding','Pathways from early discovery through translational and follow-on funding.'],
+ip:['IP + commercialization','Scouting, protection, licensing, startups, and pathways to market.'],
+capacity:['People + capacity','Fellows, postdocs, students, mentors, and translation expertise.'],
+skills:['Translation skills','Industry engagement, stakeholder discovery, translation pathways, and leadership.']};
+document.getElementById('title').textContent=data[d][0];document.getElementById('crumb').textContent=data[d][0];document.getElementById('desc').textContent=data[d][1];
+</script></body></html>
